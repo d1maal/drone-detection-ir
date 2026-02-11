@@ -26,7 +26,7 @@ best.pt
 
 ## Stack
 
-- Python 3.10
+- Python 3.11.9
 - OpenCV
 - Ultralytics YOLO
 - PyTorch
