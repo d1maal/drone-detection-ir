@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+yolo_gpu/
+
+
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+.DS_Store
+Thumbs.db
+
+
+outputs/          # синтетические изображения, маски, боксы
+dataset/          # собранный датасет
+boxes/
+center/
+dataset/
+dataset_2
+images/
+masks/
+outputs/
+videos/            
+*.pt             
+*.onnx
+*.engine
+check_dataset.py
+flags.txt
+pblending.py
+requirements.txt
+train_yolo.py
