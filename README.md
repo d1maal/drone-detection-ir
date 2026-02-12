@@ -13,7 +13,7 @@ Detection of drones in infrared video using YOLO trained on synthetic data.
 ##Images
 | Исходное изображение | Удаление | Вставка(Poisson Blending) |
 |:---:|:---:|:---:|
-| ![Original](<img width="992" height="742" alt="Image" src="https://github.com/user-attachments/assets/564f225f-977e-4829-82bb-cca33b483822" />) | ![Delete](<img width="992" height="742" alt="Image" src="https://github.com/user-attachments/assets/3566599f-655e-4504-85be-ec725f9a19db" />) | [Poisson](<img width="992" height="742" alt="Image" src="https://github.com/user-attachments/assets/43ec579f-b119-4dba-a922-cb8c6623ff6f" />)  |
+| ![Original](<img width="992" height="742" alt="Image" src="https://github.com/user-attachments/assets/564f225f-977e-4829-82bb-cca33b483822" />) | ![Delete](<img width="992" height="742" alt="Image" src="https://github.com/user-attachments/assets/3566599f-655e-4504-85be-ec725f9a19db" />) | ![Poisson](<img width="992" height="742" alt="Image" src="https://github.com/user-attachments/assets/43ec579f-b119-4dba-a922-cb8c6623ff6f" />)  |
 
 ## Pipeline
 ```
