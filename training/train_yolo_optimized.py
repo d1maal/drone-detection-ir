@@ -114,7 +114,7 @@ def main():
     p.add_argument('--model', 
                    default='yolo26s.pt',
                    choices=['yolov8n.pt', 'yolov8s.pt', 'yolov8m.pt', 'yolov8l.pt', 'yolov8x.pt'],
-                   help='Model size (s=small recommended for start)')
+                   help='Model size')
     
     p.add_argument('--epochs', 
                    type=int, 
@@ -124,17 +124,17 @@ def main():
     p.add_argument('--imgsz', 
                    type=int, 
                    default=1024,
-                   help='Input image size (1024 or 1280 for small objects)')
+                   help='Input image size')
     
     p.add_argument('--batch', 
                    type=int, 
                    default=4,
-                   help='Batch size (reduce if GPU out of memory)')
+                   help='Batch size')
     
     p.add_argument('--patience',
                    type=int,
                    default=10,
-                   help='Early stopping patience (stop if no improvement)')
+                   help='Early stopping')
     
     args = p.parse_args()
     
